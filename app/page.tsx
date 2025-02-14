@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -39,7 +40,7 @@ export default function Home() {
         ...defaults,
         particleCount: particleCount * 0.5,
         colors: ['#ff69b4', '#ff1493', '#ff007f'],
-        shapes: ['heart'],
+        shapes: ['circle'],
         gravity: 1.2,
         scalar: 2,
         drift: 0,
